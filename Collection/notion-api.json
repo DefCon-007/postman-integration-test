@@ -1386,7 +1386,7 @@
       "response": []
     },
     {
-      "name": "New Request",
+      "name": "Test 2.0",
       "id": "a8e71c1a-9350-4253-b7d9-570c9e1dc6e3",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
@@ -1429,22 +1429,22 @@
   ],
   "variable": [
     {
-      "id": "885b40cb-6356-41d2-bd9d-02b115bab257",
+      "id": "b75a796f-63db-4340-84b2-067b0795ac14",
       "key": "BEARER_TOKEN",
       "value": ""
     },
     {
-      "id": "2cc929e5-082f-49c8-abe8-15153cc821bc",
+      "id": "8a92e87e-6d25-4c1a-a2ae-11345df39a66",
       "key": "DATABASE_ID",
       "value": ""
     },
     {
-      "id": "c67346b2-58ce-45b2-a56e-ee6b045196e7",
+      "id": "5732b1b5-57c4-4df6-9f85-6c26aa428d3f",
       "key": "USER_ID",
       "value": ""
     },
     {
-      "id": "628c3aaa-cf83-4bae-af9d-a4e1f31b8f2c",
+      "id": "f3c387c8-c1dc-415b-bd11-bcaa5ddf89f5",
       "key": "PAGE_ID",
       "value": ""
     }
