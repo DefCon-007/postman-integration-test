@@ -1429,22 +1429,22 @@
   ],
   "variable": [
     {
-      "id": "b75a796f-63db-4340-84b2-067b0795ac14",
+      "id": "8edbc1e4-d9d6-4dfa-8692-c1fa07e66692",
       "key": "BEARER_TOKEN",
       "value": ""
     },
     {
-      "id": "8a92e87e-6d25-4c1a-a2ae-11345df39a66",
+      "id": "ecca728a-9071-40d8-bff5-1a1346fb5890",
       "key": "DATABASE_ID",
       "value": ""
     },
     {
-      "id": "5732b1b5-57c4-4df6-9f85-6c26aa428d3f",
+      "id": "c5ccbcca-b456-4d4b-9654-8757df156141",
       "key": "USER_ID",
       "value": ""
     },
     {
-      "id": "f3c387c8-c1dc-415b-bd11-bcaa5ddf89f5",
+      "id": "7e14f2ca-df74-4d68-ab1c-71f326e9b6d7",
       "key": "PAGE_ID",
       "value": ""
     }
