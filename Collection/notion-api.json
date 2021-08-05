@@ -1384,6 +1384,19 @@
         "url": null
       },
       "response": []
+    },
+    {
+      "name": "New Request",
+      "id": "a8e71c1a-9350-4253-b7d9-570c9e1dc6e3",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": null
+      },
+      "response": []
     }
   ],
   "auth": {
@@ -1416,22 +1429,22 @@
   ],
   "variable": [
     {
-      "id": "6332e275-72ef-4644-a2cf-0261fbc759cf",
+      "id": "76c1e7f3-26fc-416c-9925-f1c543dd8a4c",
       "key": "BEARER_TOKEN",
       "value": ""
     },
     {
-      "id": "850e00d9-8d5c-4366-ab59-80d8bec6100e",
+      "id": "4ef7c4ea-1912-4748-81ad-2e9a2abc4db6",
       "key": "DATABASE_ID",
       "value": ""
     },
     {
-      "id": "1b30903d-190a-40e2-bc98-afb26f2498e2",
+      "id": "1ba196c9-3c7c-4f9d-aeb0-d2f0f7673411",
       "key": "USER_ID",
       "value": ""
     },
     {
-      "id": "9918c974-bb6b-4af1-bebd-24dcb97482c8",
+      "id": "5a0f8547-eb3b-4b2d-853a-2602e756c71e",
       "key": "PAGE_ID",
       "value": ""
     }
