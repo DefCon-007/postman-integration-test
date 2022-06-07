@@ -4,6 +4,7 @@ node_js:
 jobs:
   include: 
     - stage: test 1
+      name: "Job 1 test name"
       script:
         - echo "Test"
     - stage: test 1
