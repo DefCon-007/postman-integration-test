@@ -6,6 +6,9 @@ jobs:
     - stage: test 1
       script:
         - echo "Test"
+    - stage: test 1
+      script:
+        - echo "Test 1.1"        
     - stage: test 2
       script: 
         - echo "test 2"
