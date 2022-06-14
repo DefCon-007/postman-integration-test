@@ -3,9 +3,7 @@ node_js:
   - "16"
 jobs:
   include: 
-    - stage: Install Newman and Postman cloud reporter
-      script:
-        - npm install -g newman newman-reporter-postman-cloud
     - stage: Run Collection
       script:
+        - npm install -g newman newman-reporter-postman-cloud
         - POSTMAN_API_URL="https://api.getpostman-beta.com" newman run "https://api.getpostman-beta.com/collections/798174-43884373-1d5a-46f9-8d96-18d3a74ac31d?apikey=PMAK-621c71b3ff933900353df224-301de0a904b2ca4235e9b650272f53d2d1" -r postman-cloud --reporter-apiKey "PMAK-621c71b3ff933900353df224-301de0a904b2ca4235e9b650272f53d2d1" --reporter-workspaceId "406f6fd8-e029-44b8-a986-6d7446554fc9" --reporter-integrationIdentifier "47790-${TRAVIS_BUILD_ID}"
