@@ -6,4 +6,4 @@ jobs:
     - stage: Run Collection
       script:
         - npm install -g newman newman-reporter-postman-cloud
-        - POSTMAN_API_URL="https://api.getpostman-stage.com" newman run "https://api.getpostman-stage.com/collections/798174-43884373-1d5a-46f9-8d96-18d3a74ac31d?apikey=PMAK-62b5b3b38ef9ca2a40550263-349dbc1b80e027ca1d7021a55db280b8dc" -r postman-cloud --reporter-apiKey "PMAK-62b5b3b38ef9ca2a40550263-349dbc1b80e027ca1d7021a55db280b8dc" --reporter-workspaceId "b3d426e4-7c3a-4994-b742-06f7f5658514" --reporter-integrationIdentifier "120084-${TRAVIS_BUILD_ID}"
+        - POSTMAN_API_URL="https://api.getpostman-stage.com" newman run "https://api.getpostman-stage.com/collections/265580-0f5e9b5b-95bb-4e88-87cb-bfc36e82547b?apikey=PMAK-62b5b3b38ef9ca2a40550263-349dbc1b80e027ca1d7021a55db280b8dc" -r postman-cloud --reporter-apiKey "PMAK-62b5b3b38ef9ca2a40550263-349dbc1b80e027ca1d7021a55db280b8dc" --reporter-workspaceId "b3d426e4-7c3a-4994-b742-06f7f5658514" --reporter-integrationIdentifier "120084-${TRAVIS_BUILD_ID}"
