@@ -1,0 +1,14 @@
+id = 39045e4d-ae32-4baf-a001-56af6d8c9f10
+
+[relations]
+
+[relations.collections]
+rootDirectory = Collection
+files[] = {"id":"34b37ece-3424-4895-a042-0a804b00d203","path":"notion-api.json","metaData":{}}
+
+[relations.collections.metaData]
+
+[relations.apiDefinition]
+rootDirectory = postman/schemas
+
+[relations.apiDefinition.metaData]
